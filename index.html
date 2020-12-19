@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>index.html</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top text-uppercase">
+        <div class="container">
+          <p class="navbar-brand font-weight-bold" style="color: black; margin-right:30%" href="#"><b>Little Angels</b></p>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <li><a class="nav-link dropdown-toggle px-lg-4 rounded" href="#Эхлэл">Эхлэл</a></li>
+                        <li><a class="nav-link dropdown-toggle px-lg-4 rounded" href="#Зураг">Зураг</a></li>
+                </li>
+                <li><a class="nav-link dropdown-toggle px-lg-4 rounded" href="#БиднийТухай">Бидний Тухай</a></li>
+                <li><a class="nav-link dropdown-toggle px-lg-4 rounded" href="#SOCIAL-MEDIA">SOCIAL MEDIA</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:200px; ">Login</button>
+
+<div id="id01" class="modal">
+    <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><b>Forgot</b><a href="#"><b>password?</b></a></span>
+    </div>
+  </form>
+</div>
+          </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- main section start -->
+
+
+    <section id="Эхлэл">
+        <section class="main py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6 py-5">
+                    <h3><small>Сайн Байна уу😁</small></h3>
+                    <h2>Манай амьтан үрчэлийн веб хуудсанд тавтай морил🙋🏻‍♂️🙋🏻‍♀️</h2>
+                    <h6 class="pt-3">Сайн үлсийн аян😇</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    
+
+
+
+
+    <section id="БиднийТухай">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="portrait.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7 pt-3">
+                    <h1 style="text-align: left;">Бидний Тухай💁🏻‍♂️💁🏻‍♀️😊</h1>
+                    <p> Сайн Үйлсийн байгуулга </p>
+                    <p> Бид гудамжинд өнчирч орхигдсон амьтдыг эмчилж үрчлүүлж эзэнтэй болгож өгдөгөөрөө давуу талтай. 2020 онд үйл ажиллагаагаа эхэлсэн бөгөөд үйл зогсолтгүй үргэлжиж байгаа. Манайх нийт 10 гаруй хамт олонтой сайн үйлсын байгуулга юм. Одоогоор 100 гаруй амьтад эмчлэн үрчдүүлж чадсан юм. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Зураг">
+    <h1 style="text-align: center; margin-top:7% ;">Зураг📸🐶🐱🐰</h1>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="rabbit1.jpeg" class="Бүгд Туулай" style="width: 300px; height: 300px;">
+                </div>
+                    <div class="detials">
+                        <div class="content">
+                        <h2>Туулай</h2>
+                        <p>Хүйс:Эм<br>Нас:1</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="dog1.jpg" class="Бүгд Нохой" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="detials">
+                        <div class="content">
+                        <h2>Нохой</h2>
+                        <p>Хүйс:Эр<br>Нас:2.5</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="cat3.jpg" class="Бүгд Муур" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="detials">
+                        <div class="content">
+                        <h2>Муур</h2>
+                        <p>Хүйс:Эм<br>Нас:1.8</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="dog2.jpg" class="Бүгд Нохой" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="detials">
+                        <div class="content">
+                        <h2>Нохой</h2>
+                        <p>Хүйс:Эр<br>Нас:8 сар</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="rabbit3.jpg" class="Бүгд Туулай" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="detials">
+                        <div class="content">
+                        <h2>Туулай</h2>
+                        <p>Хүйс:Эм<br>Нас:7 сар</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="rabbit2.jpg" class="Бүгд Туулай" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="detials">
+                        <div class="content">
+                        <h2>Туулай</h2>
+                        <p>Хүйс:Эр<br>Нас:1.5</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="cat1.jpeg" class="Бүгд Муур" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="detials">
+                        <div class="content">
+                        <h2>Муур</h2>
+                        <p>Хүйс:Эр<br>Нас:1</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="cat2.jpg" class="Бүгд Муур" style="width: 300px; height: 300px;">
+                    </div>
+                    <div class="detials">
+                        <div class="content">
+                        <h2>Муур</h2>
+                        <p>Хүйс:Эр<br>Нас:4 сар</p>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="SOCIAL-MEDIA">
+<h1 style="margin-left:32%; margin-top:20%; margin-bottom:-2% ;">SOCIAL MEDIA📲📱💻</h1>
+<div class="container text-center">
+    <div class="social-icons">
+        <a href="#"><img src="fb.png" style="margin-right:-80%; margin-top:-20%"></a>
+        <a href="#"><img src="youtube.png" style="margin-right:-80%; margin-top:-20%"></a>
+        <a href="#"><img src="instagram.png" style="margin-right:-210%; margin-bottom:20% "></a>
+    </div>
+</div>
+</section>
+
+<section id="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-4 footer-box">
+<p style="margin-top:10%;">Бидний веб хуудсаар зочилсон танд баярлалаа. Бидэнтэй холбогдохыг хүсвэл дараах хаягаар холбогдоорой.</p>
+</div>
+<div class="col-md-4 footer-box">
+    <p><b>Холбоо Барих</b></p>
+    <p><i class="fa fa-map-marker"></i>СХД 19-р хороо МБ 103-4</p>
+    <p><i class="fa fa-phone"></i>+97680226586</p>
+    <p><i class="fa fa-envelope-o"></i>dulguundudu83@yahoo.com</p>
+</div>
+</div>
+</div>
+</section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script>
+        $("#sec-1").click(function() {
+               $('html, body').animate({
+                   scrollTop:        $("#one").offset().top-66
+               }, 1000);
+            return false;
+           });
+          
+          $("#sec-2").click(function() {
+               $('html, body') .animate({
+                   scrollTop:        $("#two").offset().top-112
+               }, 1000);
+            return false;
+           });
+          
+          $("#sec-3").click(function() {
+               $(' html,body') .animate({
+                   scrollTop:        $("#three").offset().top-112
+               }, 1000);
+            return false;
+           });
+          
+          $("#sec-4").click(function() {
+            $(this).addClass("active");
+               $('html,body ') .animate({
+                   scrollTop:        $("#four").offset().top-112
+               }, 1000);
+            return false;
+           });
+           $('#two').waypoint(function() {
+          
+          $(".container ul li").children().removeClass("active");
+          $("#sec-2").addClass("active");
+          
+        }, { offset: 101 });
+        
+        
+        $('#three').waypoint(function() {
+          $(".container ul li").children().removeClass("active");
+          $("#sec-3").addClass("active");
+        }, { offset: 101 });
+        
+        $('#four').waypoint(function() {
+          $(".container ul li").children().removeClass("active");
+          $("#sec-4").addClass("active");
+        }, { offset: 101 });
+        
+        $('#one').waypoint(function() {
+          $(".container ul li").children().removeClass("active");
+          $("#sec-1").addClass("active");
+        }, { offset: 0 });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
